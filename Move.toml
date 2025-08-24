@@ -1,0 +1,14 @@
+[package]
+name = "ntf"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x5211c97b8ee9852db024e3dc1aff6f4b712b75e1e6071a7da02dc4fc124c1938"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
